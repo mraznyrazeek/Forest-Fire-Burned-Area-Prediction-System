@@ -1,0 +1,7 @@
+Onboarding / new machine setup
+If you ever clone this repo fresh, the setup is just:
+
+py -3.13 -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m ipykernel install --user --name=forest-fire-venv --display-name "Python (.venv - Forest Fire)"
